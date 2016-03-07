@@ -1,0 +1,50 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+div.container-fluid{
+	background-color:#336B87;
+	color:#90AFC5;
+	padding-bottom:650px;;
+}
+
+a:visited{
+	color:white;
+}
+
+a:link{
+	color:white !important;
+	
+}
+
+a:visited{
+ color:white !important;
+}
+
+h4{
+	text-align:center;
+}
+
+div#footerClass{
+	background-color:#2A3132;
+	color:white;
+	margin:auto;
+	padding-top:43px;
+}
+
+div#navigation{
+	background-color:#2A3132;
+	float:right;
+	color:white;
+}
+
+.carousel-inner > .item > img, carousel-inner > .item > a > img{
+	height: 25em;
+	margin:auto;
+}
+
+
+img{	
+	margin:auto;
+}
+

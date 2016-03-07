@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RentalSystem</title>
+  
+  <%= render partial: "layouts/navigation"%>
+  
+  
+</head>
+<body>
+<div class = "row">
+	<div class = "col-md-12" id = "navigation">
+		<nav class = "naviagtion">
+			<%= link_to "HOME", "/" %>
+			<%= link_to "MANAGE PRODUCTS", "/products/index" %>
+			<%= link_to "ADMIN", "/admin/index" %>
+			<%= link_to "LOG IN", "/admin/index" %>
+			<%= image_tag "TestLogo.Png", alt: "logo", width: 100, height: 100 %>
+		</nav>
+	</div>
+</div>
+<div class = "container-fluid">
+	<div class =  "row" id = "maincontent">
+		<div class = "col-md-12" id = "maincontent">
+			<%= yield %>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class = "col-md-12" id = "footerClass">			
+			<h4>Made By Matthew Lackey</h4>
+		</div>
+	</div>
+</footer>
+
+<p class="notice"><%= notice %></p>
+<p class="alert"><%= alert %></p>
+
+</body>
+</html>
